@@ -1,0 +1,5 @@
+access_key = "39566c34e020489dac0aa1e3ffb8929a"
+secret_key = "73c9d75f29a74f7984a4e741bb9fb499"
+northbound_ip = "10.16.146.33"
+vpc_id = "vpc-87e252f58edd48df9ab62f3b97cc558f"
+subnet_id = "subnet-f0ba2610aa5a4872816a73388f04ea3c"

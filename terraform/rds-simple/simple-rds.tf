@@ -17,13 +17,13 @@ resource "aws_db_subnet_group" "dbsubnet" {
 # Create db instance 1
 resource "aws_db_instance" "dbinst1" {
   identifier = "dbpost1"
-  instance_class = "m1.medium"
+  instance_class = "db.m1.medium"
   allocated_storage = 10
-  engine = "mysql"
+  engine = "postgresql"
   name = "db123"
   password = "dbpassword"
   username = "terraform"
-  engine_version = "5.7.00"
+  engine_version = "10.00"
   skip_final_snapshot = true
   db_subnet_group_name = "${aws_db_subnet_group.dbsubnet.name}"
 }
